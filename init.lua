@@ -326,6 +326,10 @@ vim.o.completeopt = 'menuone,noselect'
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
 
+vim.g.netrw_banner = 0
+vim.g.netrw_browse_split = 4
+vim.g.netrw_winsize = 25
+
 -- [[ Basic Keymaps ]]
 
 -- Keymaps for better default experience
